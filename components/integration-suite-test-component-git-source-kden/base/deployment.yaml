@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: integration-suite-test-component-git-source-kden
     spec:
       containers:
-      - image: quay.io/redhat-appstudio-qe/test-images:3c3af14f52004504acfb5bac26308219
+      - image: quay.io/redhat-appstudio-qe/test-images@sha256:5cf02e951893863b4003a141451cbc616edea8b195205a89a816f960e15f8f17
         name: my-python
         ports:
         - containerPort: 8081
